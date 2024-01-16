@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+<script>
+    let a =[]
+    for (let i=0; i<10; i++)
+    a[i]= parseInt(prompt('Enter NO'))
+    let large =a[0]
+    for (let i=0; i<10; i++)
+    {
+        if (a[i] > large){
+            large=a[i]
+            }
+        }
+    let sec=0
+    for (let i=0; i<10; i++){
+        if (a[i]>sec && a[i]< large)
+        {
+            sec=a[i]
+         }
+    }    
+    document.write('Second large element is:',sec)
+    </script>
+  </body>
+</html>
+
+

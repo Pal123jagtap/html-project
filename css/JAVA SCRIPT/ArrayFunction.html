@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+let arr=["C","C++","Java",".NET"]
+document.write('<h2>Array:'+arr+'</h2>') 
+arr.push("Angular","React JS") 
+document.write('<h2>After adding element into array: '+arr+'</h2>')
+let temp=["Html","CSS","JS"]
+arr.pop(temp)
+document.write('<h2>Array: '+arr+'</h2>')
+document.write('<h2>Removing element from end of array: '+arr.pop()+'</h2>')
+arr.unshift("HTML","CSS")
+document.write('<h2>After adding element at start of Array: '+arr+'</h2>')
+arr.shift()
+document.write('<h2>After removing element from start of Array: '+arr+'</h2>')
+//splice(index,no_of_ele_to_be_delete,no_of_ele_to_be_added)
+arr.splice(1,2)
+document.write('<h2>After removing element from specific index Array: '+arr+'</h2>')
+arr.splice(4,0,"Html","JS")
+document.write('<h2>Array:'+arr+'</h2>')
+document.write('<h2>Sub-Array: '+arr.slice(2)+'</h2>')
+document.write('<h2>Sub-Array(start ,end): '+arr.slice(0,4)+'</h2>')
+arr.sort()
+document.write('<h2>Sorted Array: '+arr.slice(2)+'</h2>')
+arr.reverse()
+document.write('<h2>Reverse Array: '+arr+'</h2>')
+let arr1=arr.concat(temp)
+document.write('<h2>Joining of two arrays: '+arr1+'</h2>')
+let str=arr.join('|')
+document.write('<h2>Array to String: '+str+'</h2>')
+let str1=arr.toString()
+document.write('<h2>Array to String: '+str1+'</h2>')
+   </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+    <body>
+    <script>
+    
+    let a=[]
+    for(let i=0; i<5; i++){
+    a[i]=parseInt(prompt('Enter Numbers'))
+    }
+
+    for (let i=0; i<5; i++)
+    {
+        let sum=0
+        for(let j=1;j<a[i];j++){
+            if(a[i]%j==0){
+                sum=sum+j
+            }
+        }
+        if (sum == a[i]) {
+            document.write('perfect no is =', a[i])
+        }
+        else {
+            document.write('no is not perfect =\n', a[i])
+        }
+
+    }
+
+    </script>
+    </body>
+</html>

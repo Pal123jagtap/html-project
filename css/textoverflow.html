@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .hidden
+        {
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            overflow: hidden;
+        }
+        .visible{
+          height: 200px;
+          width: 100px;
+          border: 2px solid green;
+          overflow: visible;
+          margin-left: 120px;
+        }
+        .scroll{
+          height: 100px;
+          width: 100px;
+          border: 2px solid green;
+          overflow: scroll;
+          margin-left: 240px;
+        }
+        .auto{
+          height: 100px;
+          width: 100px;
+          border: 2px solid green;
+          overflow: auto;
+          margin-left: 360px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div class="hidden">
+        overflow property will decide how to display overflow text<br>
+        hidden value of overflow property hide all text which is overflow
+
+    </div>
+    <div class="visible">
+      overflow property will decide how to display overflow text<br>
+      hidden value of overflow property hide all text which is overflow
+
+  </div>
+  <div class="scroll">
+    overflow property will decide how to display overflow text<br>
+    hidden value of overflow property hide all text which is overflow
+
+</div>
+<div class="auto">
+  overflow property will decide how to display overflow text<br>
+  hidden value of overflow property hide all text which is overflow
+
+</div>
+  </body>
+</html>

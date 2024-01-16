@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+  <body>
+    <script>
+        const add=function(a,b){
+            return a+b
+        }
+        document.write('<h1>Addtion:'+add(1,2)+'</h1>')
+
+        const sumOfElement=(a)=>{
+            let s=0
+            const sum=a.map((ele)=>{
+                return ele+100
+
+            })
+            return sum
+        }
+        let arr=[10,20,30,40,50]
+        document.write('<h1>'+sumOfElement(arr)+'</h1>')
+
+        let arr1=[10,4,56,2,76,47,45,23,88,43,90,13,34,67,43,23,99,98]
+
+        const oddNo=(arr)=>{
+            const no=arr.filter((ele)=>{
+                return (ele%2)!=0
+
+
+            })
+            return no
+        }
+
+        document.write('<h1>ODD NO:' +oddNo(arr1)+'</h1>')
+    </script>
+  </body>
+</html>

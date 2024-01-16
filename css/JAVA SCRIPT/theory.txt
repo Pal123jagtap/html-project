@@ -1,0 +1,43 @@
+2nd nov
+************************************FUNCTION*****************************************************
+Function without parameter
+Function with parameter
+Anonymous function-Async programming
+
+object.get('',Async(req,res))=>{
+
+}
+
+*map:-single value for callback  FUNCTION KEYWORD IS MAIN
+
+
+function add()
+{
+
+}
+add()
+
+Function divide(a,b)
+{
+
+}
+
+const add=function(){                                    ***** Anonymous fuction return a function only
+     return 'Hi' + ' How r u? '
+}
+ 
+ 
+ add()
+
+ const a=function(a,b){
+    return a+b
+ }
+ a()
+create a stopwatch
+give dropdown list with color name when use a selevt any from dropdown list and click on change button and then 
+bg color are change
+create a div tag with create follow option on web pages bold italic and underline when usre select any option
+ from given option effect will apply div tag 
+display clock on screen
+
+

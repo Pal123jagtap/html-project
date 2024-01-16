@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+<style>
+    .first{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+</style>
+<script>
+    function changeBackground()
+    {
+        let obj=document.getElementsByTagName('div')
+        for(let i of obj)
+        {
+            i.style.fontfamily='Arial'
+            i.style.fontsize='15pt'
+            i.style.color='red'
+        }
+        let txt=document.querySelector('section').innerText
+        alert(txt)
+        let s=document.getElementsByClassName('first')
+
+        s[0].innerHTML=txt
+        s[1].style.fontfamily='Times New Roman'
+    }
+    
+</script>
+</head>
+<body>
+    <div>First Div</div>
+    <div>Second Div</div>
+
+    <section>
+        using css related DOM methods
+    </section>
+    <section class="first">
+        Using DOM methods
+    </section>
+    <section class="first">
+        Using DOM methods
+    </section>
+    <button onclick="changeBackground()">CLICK</button>
+</body>
+</html>

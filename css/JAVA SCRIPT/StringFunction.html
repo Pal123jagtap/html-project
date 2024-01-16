@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <script>
+            let str='This is new string'
+            document.write('<h2> Original String: '+str+'</h2>')
+            //length
+            document.write('<h2> String Length: '+str.length+'</h2>')
+            //slice(start,end)+ve as well as -ve
+            document.write('<h2>SubString(slice):'+str.slice(2)+'</h2>')
+            document.write('<h2>SubString(slice):'+str.slice(1,10)+'</h2>')
+            document.write('<h2>SubString(slice):'+str.slice(-18,-12)+'</h2>')
+            //substring(start,end)+ve 
+            document.write('<h2>SubString(substring):'+str.substring(4,20)+'</h2>')
+            //substr(index,total_no_of_charactors)
+            document.write('<h2>SubString(substr):'+str.slice(0,10)+'</h2>')
+            //replace(search ch,replace ch)
+            str=str.replace('is','IS')
+            document.write('<h2>String with replacement: '+str+'</h2>')
+            //concat
+            let str1='New String is added at the end of first string'
+            let s=str.concat(str1)
+            document.write('<h2>Joining of a strings: '+s+'</h2>')
+            //touppercase
+            document.write('<h2>String Upper case: '+str.toUpperCase()+'</h2>')
+            //tolowercase
+            document.write('<h2>String Lower case: '+str.toLowerCase()+'</h2>')
+            //trim
+            let str2='    current string contains spaces      '
+            document.write('<h2>String with spaces: '+str2+'</h2>')
+            document.write('<h2>Length of String with special: '+str2.length+'</h2>')
+            str2=str2.trim()
+            document.write('<h2>String without spaces: '+str2+'</h2>')
+            document.write('<h2>Length of String without spaces: '+str2.length+'</h2>')
+        </script>
+    </body>
+</html>

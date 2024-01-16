@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Swapping
+    </title>
+    <body>
+        <script>
+
+            let arr=[]
+            let j=0
+            let s=parseInt(prompt('Enter array size'))
+            let k=0
+            for(let i=0;i<5;i++)
+                 arr[i]=parseInt(prompt('enter array element'))
+
+             document.write('<h1>Array before swapping</h1>')
+            for(let i of arr)
+                document.write('<h2>'+i+'</h2>')
+            
+    
+             for(j=0,k=s-1;j<k;j++,k--)
+             {
+        
+            let temp=arr[j]
+            arr[j]=arr[k]
+            arr[k]=temp
+             }
+    
+        document.write('<h1>Array before swapping</h1>')
+        for(let i of arr)
+        document.write('<h2>'+i+'</h2>')
+    
+        </script>
+    </body>
+</html>

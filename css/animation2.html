@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div{
+        width: 150px;
+        height: 150px;
+        border: 2px solid green;
+        animation-name: mp;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: 20;
+
+      }
+      @keyframes mp{
+        0%{
+            width: 150px;
+            height: 150px;
+            border: 2px solid green;
+
+        }
+        50%{
+            margin-top: 600px;
+            margin-left: 1000px;
+            rotate: 360deg;
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

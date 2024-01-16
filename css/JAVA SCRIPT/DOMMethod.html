@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+
+<script>
+    let no1=Number(document.getElementById('n1').Value)
+    let no2=Number(document.getElementById('n2').value)
+    alert(no1)
+    let no3=no1+no2
+    let d=document.getElementById('ans')
+    d.innerHTML='Addition:'+no3
+    d.style.fontFamily='Times New Roman'
+    d.style.color='green'
+    d.style.fontSize='20pt'
+    let data=d.innerText
+    alter(data)
+
+</script>
+</head>
+<body>
+    Number 1:<input type="number" id="n1" /><br><br>
+    Number 2:<input type="number" id="n2" /><br><br>
+    <div id="ans"></div>
+    
+</body>
+</html>
